@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Fox';
-    src: url('../Fonts/FoxAndBower.otf') format('opentype');
+    src: url('FoxAndBower.otf') format('opentype');
 }
 
 :root {
