@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Sonora';
-    src: url('Fonts/Sonorous-Rough.otf') format('opentype');
+    src: url('/Fonts/Sonorous-Rough.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Fox';
-    src: url('Fonts/FoxAndBower.otf') format('opentype');
+    src: url('/Fonts/FoxAndBower.otf') format('opentype');
 }
 
 :root {
@@ -122,11 +122,9 @@ img:hover {
 
 .🧭 { /* Navigation */
     display: grid;
-    grid-template: 10vh /  repeat(3, 1fr) ;
+    grid-template: 8vh /  repeat(3, 1fr) ;
     width: inherit;
-    justify-items: center;
-    align-items: center;
-    
+    place-items: center;
 }
 
 .📍 {  /* Navigation Elements */
